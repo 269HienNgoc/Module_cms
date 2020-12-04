@@ -1,0 +1,90 @@
+@import "../../var/var.less";
+.type-12-header {
+  position: relative;
+  overflow: hidden;
+}
+.type-12-header .image-carousel {
+  background-image: url(../images/slide01.jpg);
+  height: 800px;
+}
+.type-12-header .navbar-brand .logo {
+  max-width: 100px;
+}
+.type-12-header .navbar-nav > li {
+  position: relative;
+}
+.type-12-header .navbar-nav > li:hover .submenu {
+  display: block;
+}
+.type-12-header .nav > li > a:hover,
+.type-12-header .nav > li > a:focus {
+  background-color: #0d425e;
+}
+.type-12-header .submenu {
+  display: none;
+  width: 500px;
+  position: absolute;
+  z-index: 1;
+}
+.type-12-header .submenu li {
+  list-style: none;
+}
+.type-12-header .mui-ten-huong-len {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #ffff66;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.type-12-header .mui-ten-huong-len a {
+  color: #fff;
+  text-decoration: none;
+}
+.type-12-header .mui-ten-huong-len:hover {
+  background: #fdd123;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.type-12-header .logo img {
+  width: 80px;
+  height: auto;
+}
+.type-12-header .navbar {
+  background: #0d425e;
+}
+.type-12-header a {
+  color: #fff;
+}
+.type-12-header .home {
+  color: #fdd123;
+}
+.type-12-header .nav > li > a:hover {
+  color: #fdd123;
+}
+.type-12-header .gold {
+  color: #fdd123;
+}
+.type-12-header .row {
+  display: flex;
+  align-items: center;
+}
+.type-12-header .navbar-nav {
+  float: left;
+  margin: 0;
+  width: 60;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.type-12-header .navbar-nav > li {
+  padding: 0 15px;
+}
+.type-12-header .right {
+  text-align: right;
+  color: #fff;
+}
+.type-12-header .content h3 {
+  line-height: 1;
+  color: #fff;
+}

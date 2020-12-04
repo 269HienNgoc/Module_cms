@@ -1,0 +1,30 @@
+@import "../../var/var.less";
+.type-18-content {
+  position: relative;
+  overflow: hidden;
+}
+.type-18-content #collapseOne {
+  overflow: hidden;
+}
+.type-18-content #collapseFive {
+  overflow: hidden;
+}
+.type-18-content .card i {
+  font-size: 2em;
+  color: #fdd123;
+}
+.type-18-content .btn-link {
+  text-decoration: none;
+}
+.type-18-content .card-header {
+  border: 1px solid #eef3f5;
+}
+.type-18-content .content {
+  margin-top: 50px;
+}
+.type-18-content .card-body {
+  background: #f8f9fa;
+  padding: 50px;
+  color: #598aa4;
+  font-size: 1.2em;
+}

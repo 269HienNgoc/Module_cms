@@ -1,0 +1,44 @@
+@import "../../var/var.less";
+.type-22-content {
+  position: relative;
+  overflow: hidden;
+}
+.type-22-content .account {
+  text-align: center;
+}
+.type-22-content .login {
+  text-align: center;
+}
+.type-22-content .dangnhap {
+  width: 500px;
+  margin: 0 auto;
+}
+.type-22-content .lost {
+  margin: 20px 0;
+}
+.type-22-content .form-control {
+  padding: 25px;
+  margin: 10px 0;
+}
+.type-22-content a {
+  text-decoration: none;
+  color: #000;
+}
+.type-22-content a:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+.type-22-content h2 {
+  font-weight: bold;
+  color: #0d425e;
+}
+.type-22-content button {
+  border: 2px solid #fdd123;
+  background: #fff;
+  padding: 10px 50px;
+}
+.type-22-content button:hover {
+  border: 2px solid #fdd123;
+  background: #fdd123;
+  padding: 10px 50px;
+}
