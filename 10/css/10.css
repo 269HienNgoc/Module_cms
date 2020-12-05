@@ -1,0 +1,83 @@
+.type-10 {
+  background-image: url(../images/img10.png);
+}
+.type-10 .mail_10 {
+  width: 25%;
+}
+.type-10 .btnBAL_10 {
+  background: #fdd123;
+}
+.type-10 .btnBAL_10:hover {
+  animation-name: btnBAL;
+  animation-duration: 2s;
+}
+.type-10 .logo_10 {
+  width: 50px;
+}
+.type-10 .text_left_10 {
+  color: white;
+}
+.type-10 .fs_10 {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  background: #fdd123;
+  text-align: center;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+.type-10 .fs_10:hover {
+  background: #3f729b;
+  color: #fff;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.type-10 .menu_footer_10 ul>li {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding: 10px;
+  margin-right: 4%;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+.type-10 .menu_footer_10 ul>li> a {
+  padding: 20px 20px;
+}
+.type-10 .menu_footer_img_10 ul>li {
+  vertical-align: inline-block;
+  padding: 3px;
+  margin-right: -8%;
+  display: inline-block;
+  width: 40%;
+}
+.type-10 .img_10 {
+  width: 70%;
+}
+.type-10 .title_10 {
+  color: #fff;
+  text-align: center;
+}
+.type-10 .title-10 {
+  color: #fff;
+}
+.type-10 .menu_10_items {
+  color: #fff;
+}
+.type-10 .menu_10_items:hover {
+  text-decoration: none;
+  color: #2394fd;
+  transition: 0.5s;
+}
+@keyframes btnBAL {
+  0% {
+    background: white;
+    left: 20px;
+    top: 20px;
+  }
+  50% {
+    background: red;
+    left: 0;
+    top: 0;
+  }
+}
