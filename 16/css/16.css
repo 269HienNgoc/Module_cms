@@ -106,10 +106,9 @@
   text-align: center;
   color: #9a9fa0;
 }
-.type-16 .img_16_quote::before {
+.type-16 .img_16_quote {
   width: 45px;
   height: 35px;
   left: 50%;
-  top: -70px;
-  transform: translateX(-50%);
+  margin-top: 40px;
 }
