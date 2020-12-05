@@ -1,0 +1,10 @@
+.list-icon-contact {
+  display: flex;
+  list-style: none;
+}
+.list-icon-contact .item {
+  margin-right: 30px;
+}
+.list-icon-contact .item i {
+  font-size: 25px;
+}

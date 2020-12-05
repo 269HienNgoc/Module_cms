@@ -1,0 +1,142 @@
+@import "../../var/var.less";
+section h3.title {
+  color: #0d425e;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+section p.description {
+  color: #729fc0;
+}
+.line_space {
+  height: 50px;
+}
+.title_small {
+  color: #0d4768;
+  font-weight: bold;
+  font-size: 17px;
+}
+.section_main .box_button-call .item_top .row {
+  align-items: center;
+}
+.section_main .box_button-call .item_top .row .sub_right button {
+  background-color: #fdd123;
+  border: 2px solid #fdd123;
+  color: #000;
+  padding: 15px 60px;
+}
+.section_main .box_button-call .item_top .row .sub_right .btn_1 {
+  margin-bottom: 10px;
+}
+.section_main .box_button-call .item_top .row .sub_right .btn_2 {
+  margin-top: 10px;
+}
+.section_main .box_button-call .item_bottom .btn_1 {
+  background-color: #fdd123;
+  border: 2px solid #fdd123;
+  color: #000;
+  padding: 15px 60px;
+}
+.section_main .box_button-call .item_bottom .btn_2 {
+  background-color: #fff;
+  border: 2px solid #fdd123;
+  color: #000;
+  padding: 10px 60px;
+}
+.section_main .box_button-call .item_bottom .btn_3 {
+  border: none;
+  color: #000;
+  padding: 5px 60px;
+}
+.section_main .box_progress-bars .group {
+  margin-bottom: 30px;
+}
+.section_main .box_progress-bars .group .top {
+  display: flex;
+  justify-content: space-between;
+}
+.section_main .box_progress-bars .group .top .percent {
+  color: #598aa4;
+}
+.section_main .box_progress-bars .group .bg-f0 {
+  background: #f0f0f0;
+  width: 100%;
+  height: 4px;
+  border-right: 5px;
+  position: relative;
+}
+.section_main .box_progress-bars .group .sub_line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 90%;
+}
+.section_main .box_progress-bars .group .bg-4db19e {
+  background: #4bd19e;
+}
+.section_main .box_tabs .nav-tabs {
+  border: none;
+}
+.section_main .box_tabs .nav-tabs .nav-item {
+  border: none;
+}
+.section_main .box_tabs .nav-tabs .nav-item .nav-link.active {
+  background: #fdd123;
+  border: 1px solid #fdd123;
+}
+.section_main .box_tabs .nav-tabs .nav-item .nav-link {
+  padding: 15px 60px;
+  border-radius: 0;
+  margin-right: 5px;
+  border: 1px solid rgba(0,0,0,0.2);
+  color: #000;
+}
+.section_main .box_tabs .tab-content .tab-pane {
+  padding: 35px 25px;
+  border: 1px solid rgba(0,0,0,0.2);
+  color: #729fc0;
+}
+.section_main .box_icons .part_icons .title_icon {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0d425e;
+}
+.section_main .box_icons .part_icons .icon i {
+  color: #fdd123;
+  font-size: 40px;
+}
+.section_main .box_icons .part_icons .item_top .icon,
+.section_main .box_icons .part_icons .item_top .title_icon,
+.section_main .box_icons .part_icons .item_top .description {
+  text-align: center;
+}
+.section_main .box_icons .part_icons .item_bottom .sub_item {
+  display: flex;
+}
+.section_main .box_icons .part_icons .item_bottom .sub_item .icon {
+  padding: 0 15px;
+}
+.section_main .box_icons .color_icons .line_message {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.section_main .box_icons .color_icons .line_message .icon {
+  margin-right: 10px;
+}
+.section_main .box_icons .color_icons .bg-3bbf31 {
+  background: #3bbf31;
+}
+.section_main .box_icons .color_icons .bg-2394fd {
+  background: #2394fd;
+}
+.section_main .box_icons .color_icons .bg-fdd123 {
+  background-color: #fdd123;
+}
+.section_main .box_icons .color_icons .bg-d22348 {
+  background-color: #d22348;
+}
