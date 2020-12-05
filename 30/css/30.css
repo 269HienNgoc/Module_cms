@@ -1,0 +1,22 @@
+.item-content {
+  padding: 30px;
+  background-color: #f0f0f0;
+}
+.comments .horizontal-widget {
+  display: flex;
+}
+.comments .horizontal-widget .input_text {
+  width: 49%;
+  padding: 15px;
+}
+.comments .horizontal-widget .input_text:first-child {
+  margin-right: 2%;
+}
+.comments .horizontal-widget textarea {
+  width: 100%;
+  padding: 15px;
+}
+.comments .btn-send {
+  padding: 10px 25px;
+  background: #fdd123;
+}
