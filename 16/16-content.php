@@ -28,57 +28,57 @@
     <div class="swiper-wrapper">
       
       <div class="swiper-slide">
-        <img src="../16/images/16_img_quote.png" class="img_16_quote" alt="">
+        <img src="../16/images/16_img_quote.png" alt="">
         <p class="content_16_p">Their work on our website and Internet marketing has made a significant different to our business. We’ve seen a 425% increase in quote requests</p>
-        <a href="#"><img src="../16/images/16_img_1.png" class="img_16" alt=""></a>
+        <a href="#"><img src="../16/images/16_img_1.png" class="img_16" alt=""></a><br>
         <a href="#" class="name_16">
-        <h2>John L.Brookins</h2></a>
+        <h2>John L.Brookins</h2></a><br>
         <p class="middle_text_16">Customer</p><br>
       </div>
       
       <div class="swiper-slide">
-        <img src="../16/images/16_img_quote.png" class="img_16_quote" alt="">
+        <img src="../16/images/16_img_quote.png" alt="">
         <p class="content_16_p">Their work on our website and Internet marketing has made a significant different to our business. We’ve seen a 425% increase in quote requests</p>
-        <a href="#"><img src="../16/images/16_img_2.png" class="img_16" alt=""></a>
+        <a href="#"><img src="../16/images/16_img_2.png" class="img_16" alt=""></a><br>
         <a href="#" class="name_16">
-        <h2>Anna R. Swanson</h2></a>
+        <h2>Anna R. Swanson</h2></a><br>
         <p class="middle_text_16">Customer</p><br>
       </div>
 
       <div class="swiper-slide">
-        <img src="../16/images/16_img_quote.png" class="img_16_quote" alt="">
+        <img src="../16/images/16_img_quote.png" alt="">
         <p class="content_16_p">Their work on our website and Internet marketing has made a significant different to our business. We’ve seen a 425% increase in quote requests</p>
-        <a href="#"><img src="../16/images/16_img_3.png" class="img_16" alt=""></a>
+        <a href="#"><img src="../16/images/16_img_3.png" class="img_16" alt=""></a><br>
         <a href="#" class="name_16">
-        <h2>Leonor S. Hill</h2></a>
+        <h2>Leonor S. Hill</h2></a><br>
         <p class="middle_text_16">Customer</p><br>
       </div>
 
       <div class="swiper-slide">
-        <img src="../16/images/16_img_quote.png" class="img_16_quote" alt="">
+        <img src="../16/images/16_img_quote.png" alt="">
         <p class="content_16_p">Their work on our website and Internet marketing has made a significant different to our business. We’ve seen a 425% increase in quote requests</p>
-        <a href="#"><img src="../16/images/16_img_4.png" class="img_16" alt=""></a>
+        <a href="#"><img src="../16/images/16_img_4.png" class="img_16" alt=""></a><br>
         <a href="#" class="name_16">
-        <h2>Merlin L. Pena</h2></a>
+        <h2>Merlin L. Pena</h2></a><br>
         <p class="middle_text_16">Customer</p><br>
       </div>
 
       <div class="swiper-slide">
-        <img src="../16/images/16_img_quote.png" class="img_16_quote" alt="">
+        <img src="../16/images/16_img_quote.png" alt="">
         <p class="content_16_p">Their work on our website and Internet marketing has made a significant different to our business. We’ve seen a 425% increase in quote requests</p>
-        <a href="#"><img src="../16/images/16_img_5.png" class="img_16" alt=""></a>
+        <a href="#"><img src="../16/images/16_img_5.png" class="img_16" alt=""></a><br>
         <a href="#" class="name_16">
-        <h2>Maria M. Costa</h2></a>
+        <h2>Maria M. Costa</h2></a><br>
         <p class="middle_text_16">Customer</p><br>
       </div>
       
         
       <div class="swiper-slide">
-        <img src="../16/images/16_img_quote.png" class="img_16_quote" alt="">
+        <img src="../16/images/16_img_quote.png" alt="">
         <p class="content_16_p">Their work on our website and Internet marketing has made a significant different to our business. We’ve seen a 425% increase in quote requests</p>
-        <a href="#"><img src="../16/images/16_img_6.png" class="img_16" alt=""></a>
+        <a href="#"><img src="../16/images/16_img_6.png" class="img_16" alt=""></a><br>
         <a href="#" class="name_16">
-        <h2>Bernard M. Jones</h2></a>
+        <h2>Bernard M. Jones</h2></a><br>
         <p class="middle_text_16">Customer</p><br>
       </div>
     </div>
