@@ -1,6 +1,43 @@
+img {
+  max-width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 16px;
+  color: #0d425e;
+}
 .item-content {
   padding: 30px;
   background-color: #f0f0f0;
+}
+.item-content .list-icon-contact {
+  display: flex;
+  list-style: none;
+  margin-top: 70px;
+}
+.item-content .list-icon-contact .item {
+  margin-right: 15px;
+}
+.item-content .list-icon-contact .item i {
+  font-size: 14px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #fdd123;
+  text-align: center;
+  line-height: 25px;
+  color: #0d425e;
+}
+.item-content .list-icon-contact .item i:hover {
+  background-color: #3b5998;
+  color: white;
+}
+.comments .heading-form {
+  font-weight: bold;
 }
 .comments .horizontal-widget {
   display: flex;
@@ -8,6 +45,8 @@
 .comments .horizontal-widget .input_text {
   width: 49%;
   padding: 15px;
+  outline: none;
+  border: 1px solid #e1e1e1;
 }
 .comments .horizontal-widget .input_text:first-child {
   margin-right: 2%;
@@ -15,8 +54,30 @@
 .comments .horizontal-widget textarea {
   width: 100%;
   padding: 15px;
+  outline: none;
+  border: 1px solid #e1e1e1;
 }
 .comments .btn-send {
-  padding: 10px 25px;
-  background: #fdd123;
+  border: 2px solid #fdd123;
+  min-width: 170px;
+  font-weight: bold;
+  padding: 15px;
+  position: relative;
+  background-color: transparent;
+  overflow: hidden;
+}
+.comments .btn-send::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  height: 120%;
+  left: -10%;
+  transform: skewX(15deg);
+  top: 0;
+  width: 120%;
+  background-color: #fdd123;
+  transition: all 0.3s ease-in-out;
+}
+.comments .btn-send:hover::before {
+  width: 0;
 }

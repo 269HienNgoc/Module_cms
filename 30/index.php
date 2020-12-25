@@ -14,7 +14,6 @@ if (!class_exists('lessc')) {
 
 $less = new lessc;
 $less->compileFile('less/139.less', 'css/139.css');
-$less->compileFile('less/styles.less', 'css/styles.css');
 $less->compileFile('less/30.less', 'css/30.css');
 
 ?>
@@ -24,8 +23,7 @@ $less->compileFile('less/30.less', 'css/30.css');
         <title>cms</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link href="<?php echo $url_path ?>/css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/139.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/30.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
@@ -36,7 +34,6 @@ $less->compileFile('less/30.less', 'css/30.css');
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
         $less->compileFile('less/139.less', 'css/139.css');
         $less->compileFile('less/30.less', 'css/30.css');
         
@@ -50,7 +47,7 @@ $less->compileFile('less/30.less', 'css/30.css');
 
         <!--BEGIN--Page element--->
 
-        <?php include './templates/pages/30-module.php' ?>
+        <?php include './30-content.php' ?>
         <div class="border" style="margin-top: 30px; margin-bottom: 30px;"></div>
         <!--END--Page element--->
 
