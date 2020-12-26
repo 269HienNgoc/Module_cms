@@ -37,9 +37,6 @@ $less->compileFile('less/32.less', 'css/32.css');
 
 <body>
     <?php include '../32/32-content.php'; ?>
-    
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>
