@@ -24,19 +24,20 @@
 
                 a{
                     position: absolute;
-                    bottom: 0;
                     padding: 10px 20px;
                     border: 2px solid #fdd123;
                     background: #f0f0f0;
                     color: #0d425e;
-                    transition: transform 200ms;
+                    transition: all 200ms;
                     opacity: 0;
                     pointer-events: none;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
                 }
             }
 
             .img:hover a{
-                transform: translateY(-60px);
                 opacity: 1;
                 pointer-events: all;
             }
