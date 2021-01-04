@@ -23,8 +23,10 @@ $url_path = str_replace('\\', '/', $url_path);
               <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
                   <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Can anyone kitesurf?
-                    <i class="fas fa-chevron-circle-down"></i>
+                    <span>Can anyone kitesurf?</span>
+                    <div class="icon">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
                   </a>
                 </h2>
               </div>
@@ -39,7 +41,10 @@ $url_path = str_replace('\\', '/', $url_path);
               <div class="card-header" id="headingTwo">
                 <h2 class="mb-0">
                   <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    How do you rate kitesurfing as a sport? <i class="fas fa-chevron-circle-down"></i>
+                    How do you rate kitesurfing as a sport? 
+                    <div class="icon">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
                   </a>
                 </h2>
               </div>
@@ -53,7 +58,10 @@ $url_path = str_replace('\\', '/', $url_path);
               <div class="card-header" id="headingThree">
                 <h2 class="mb-0">
                   <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Is kitesurfing hard to learn? <i class="fas fa-chevron-circle-down"></i>
+                    Is kitesurfing hard to learn? 
+                    <div class="icon">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
                   </a>
                 </h2>
               </div>
@@ -67,7 +75,10 @@ $url_path = str_replace('\\', '/', $url_path);
               <div class="card-header" id="headingFour">
                 <h2 class="mb-0">
                   <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    How do you take it? <i class="fas fa-chevron-circle-down"></i>
+                    How do you take it? 
+                    <div class="icon">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
                   </a>
                 </h2>
               </div>
@@ -87,7 +98,10 @@ $url_path = str_replace('\\', '/', $url_path);
               <div class="card-header" id="headingFive">
                 <h2 class="mb-0">
                   <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
-                    Can you go upwind when kitesurfing? <i class="fas fa-chevron-circle-down"></i>
+                    Can you go upwind when kitesurfing? 
+                    <div class="icon">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
                   </a>
                 </h2>
               </div>
@@ -103,7 +117,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <h2 class="mb-0">
                   <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                     What is the fastest sailing water sport in the world?
-                    <i class="fas fa-chevron-circle-down"></i>
+                    <div class="icon">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
                   </a>
                 </h2>
               </div>
@@ -117,7 +133,10 @@ $url_path = str_replace('\\', '/', $url_path);
               <div class="card-header" id="headingSeven">
                 <h2 class="mb-0">
                   <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                    Is it OK to use a board leash when I am learning? <i class="fas fa-chevron-circle-down"></i>
+                    Is it OK to use a board leash when I am learning? 
+                    <div class="icon">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
                   </a>
                 </h2>
               </div>
@@ -131,7 +150,10 @@ $url_path = str_replace('\\', '/', $url_path);
               <div class="card-header" id="headingEight">
                 <h2 class="mb-0">
                   <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                    Is it OK to use a board leash in big surf? <i class="fas fa-chevron-circle-down"></i>
+                    Is it OK to use a board leash in big surf? 
+                    <div class="icon">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
                   </a>
                 </h2>
               </div>

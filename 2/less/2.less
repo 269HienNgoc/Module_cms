@@ -1,0 +1,115 @@
+@import "../../var/var.less";
+.type-12-header {
+  position: relative;
+  overflow: hidden;
+  .owl-img {
+    position: relative;
+  }
+
+  .content {
+    position: absolute;
+    left: 0;
+    height: 75%;
+    z-index: 1;
+    bottom: 0;
+  }
+
+  .writer h2 {
+    margin-left: 30px;
+    font-size: 200px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .writer h6 {
+    font-size: 24px;
+    text-align: right;
+    color: #0d425e;
+    font-weight: bold;
+  }
+
+  .writer h3 {
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .writer button {
+    margin-left: 40px;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: #fdd123;
+  }
+
+  .writer button:hover {
+    margin-left: 40px;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: #bb9a17;
+  }
+
+  .navbar-brand .logo {
+    max-width: 100px;
+  }
+
+  /*mui tên di chuyển*/
+  .mui-ten-huong-len {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    background: #ffff66;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+
+  .mui-ten-huong-len a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .mui-ten-huong-len:hover {
+    background: #fdd123;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .content h3 {
+    line-height: 1;
+    color: #fff;
+  }
+  
+}
+
+@keyframes move_right {
+  0% {
+    left: 0px;
+  }
+  100% {
+    bottom: 200px;
+  }
+}
+
+// //reponsize
+// @media screen {
+//   @media (max-width: 1023px) {
+//     .type-12-header .writer h2 {
+//       font-size: 100px;
+//     }
+//   }
+//   @media (max-width: 992px) {
+//     .image-carousel {
+//       padding: 0;
+//     }
+
+//   }
+//   @media (min-width: 768px) {
+//     .image-carousel {
+//       width: 96rem;
+//     }
+//   }
+//   @media (max-width: 480px) {
+//     .image-carousel {
+//       padding: 0;
+//     }
+//   }
+// }

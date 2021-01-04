@@ -1,107 +1,73 @@
 @import "../../var/var.less";
-.type-12-header {
-  position: relative;
-  overflow: hidden;
-  .owl-img{
-    position: relative;
-  }
-  
-  .content{
-    position: absolute;
-    left: 0;
-    height: 60%;
-    z-index: 1;
-    bottom: 0;
-  }
+.type-1-header {
+  background: #0d425e;
 
-  .writer h2{
-    margin-left: 30px;
-    font-size: 200px;
-    color: #fff;
-    font-weight: bold;
+  ul {
+    display: flex;
   }
-
-  .writer h6{
-    font-size: 24px;
-    text-align: right;
-    color: #0d425e;
-    font-weight: bold;
-  }
-
-  .writer h3{
-    margin-left: 50px;
-    font-size: 30px;
-    font-weight: bold;
-  }
-
-  .writer button{
-    margin-left: 40px;
-    font-size: 16px;
-    padding: 15px 30px;
-    background: #fdd123;
-  }
-
-  .writer button:hover{
-    margin-left: 40px;
-    font-size: 16px;
-    padding: 15px 30px;
-    background: #bb9a17;
-  }
-
-  .navbar-brand .logo {
-    max-width: 100px;
-  }
-
-  /*submenu*/
-  .navbar-nav > li {
-    position: relative;
-  }
-  .navbar-nav > li:hover .submenu {
-    display: block;
-  }
-  .nav > li > a:hover,
-  .nav > li > a:focus {
-    background-color: #0d425e;
-  }
-
-  .submenu {
-    display: none;
-    width: 500px;
-    position: absolute;
-    z-index: 1;
-  }
-  .submenu li {
+  ul li {
     list-style: none;
   }
-  /*mui tên di chuyển*/
-  .mui-ten-huong-len {
-    position: fixed;
-    bottom: 10px;
-    right: 0;
-    background: #ffff66;
-    padding: 10px 20px;
-    border-radius: 5px;
-    z-index: 1;
-  }
-
-  .mui-ten-huong-len a {
-    color: #fff;
+  ul li a {
+    display: block;
+    padding: 0 25px;
+    line-height: 50px;
+    color: #f1f2f3;
     text-decoration: none;
   }
-  .mui-ten-huong-len:hover {
-    background: #fdd123;
-    padding: 10px 20px;
-    border-radius: 5px;
+  ul li ul li:first-child {
+    border-left: none;
+    border-top: 5px solid red;
+    margin-top: 25px;
+  }
+  ul li:first-child a {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
   }
 
-  //logo
+  ul li:hover > a {
+    opacity: 0.7;
+    color: yellow;
+  }
+
+  ul li ul li:hover > a {
+    opacity: 0.7;
+    color: #2394fd;
+  }
+
+  li ul {
+    display: none;
+    min-width: 200px;
+    position: absolute;
+  }
+  li > ul li {
+    width: 100%;
+    border: none;
+    background: #999;
+    text-align: left;
+  }
+  li > ul li:first-child a {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    color: #2394fd;
+  }
+
+  li > ul li:last-child a {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  /*khi hover thì hiện menu con*/
+  li:hover > ul {
+    display: block;
+  }
+  /*Hiển thị menu con cấp 2,3,4 bên cạnh phải*/
+  ul li > ul li > ul {
+    margin-left: 120px;
+    margin-top: -50px;
+  }
   .logo img {
     width: 80px;
     height: auto;
-  }
-
-  .navbar {
-    background: #0d425e;
   }
 
   a {
@@ -121,24 +87,38 @@
     display: flex;
     align-items: center;
   }
-  .navbar-nav {
-    float: left;
-    margin: 0;
-    width: 60;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-  }
-  .navbar-nav > li {
-    padding: 0 15px;
-  }
+
   .right {
     text-align: right;
     color: #fff;
   }
-  //content
-  .content h3 {
-    line-height: 1;
-    color: #fff;
+  .navbar-brand {
+    margin: 0;
+    padding: 0;
+  }
+  .image-carousel {
+    padding: 5px;
+  }
+
+  /*----------REPONSIVE-------------*/
+  @media (min-width: @md-992) {
+    .sidebar {
+      padding: 0;
+    }
+  }
+  @media (min-width: @sm-768) {
+    .sidebar {
+      width: 96rem;
+    }
+  }
+  @media (max-width: @md-992) {
+    .bottom {
+      margin-bottom: 1.5rem;
+    }
+  }
+  @media (max-width: @xs-480) {
+    .sidebar {
+      padding: 0;
+    }
   }
 }
