@@ -34,17 +34,17 @@
               <div class="row cot">
                 <div class="col-md-4">
                 
-                <i class="fas fa-umbrella-beach"></i>
+                <img src="./images/h1.png" alt="">
                     <h2>251</h2>
                     <p>Safest spot home to flat and shallow</p>
                   </div>
                 <div class="col-md-4">
-                    <i class="fas fa-umbrella-beach"></i>
+                    <img src="./images/h2.png" alt="">
                     <h2>72</h2>
                     <p>Safest spot home to flat and shallow</p>
               </div>
                 <div class="col-md-4">
-                    <i class="fas fa-umbrella-beach"></i>
+                    <img src="./images/h3.png" alt="">
                     <h2>193</h2>
                     <p>Safest spot home to flat and shallow</p>
                 </div>
