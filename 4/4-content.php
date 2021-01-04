@@ -21,16 +21,16 @@
 
 <div class="type-4">
   <div class="container">
-    <div class="row">
-    <div class="col-md-5">
-          <img src="../4/images/im_9.png" alt="#" class="img9">
-          </div>
-      <div class="col-md-6 ol4">
-        <div class="row align-center">
+    <div class="row align-center">
+  
+      <div class="col-xs-12 col-12 col-lg-8 col-xl-7  ol4">
+        
           <div class="col-xs-12 col-12 col-lg-8 col-xs7 title_4">
             <p class="p1"> Advantages</p>
             <h3>Why Learn How To Kitesur With Us?</h3>
             <h6>We want our client to feel awesome and unique.</h6>
+            <br>
+            <br>
               <div class="row cot">
                 <div class="col-md-4">
                 
@@ -48,7 +48,8 @@
                     <h2>193</h2>
                     <p>Safest spot home to flat and shallow</p>
                 </div>
-        </div>
+        
+    
      
        
       </div>
