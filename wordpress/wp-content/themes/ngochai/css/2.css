@@ -1,0 +1,79 @@
+.type-12-header {
+  position: relative;
+  overflow: hidden;
+}
+.type-12-header .owl-img {
+  position: relative;
+}
+.type-12-header .content {
+  position: absolute;
+  left: 0;
+  height: 75%;
+  z-index: 1;
+  bottom: 0;
+}
+.type-12-header .writer h2 {
+  margin-left: 30px;
+  font-size: 200px;
+  color: #fff;
+  font-weight: bold;
+}
+.type-12-header .writer h6 {
+  font-size: 24px;
+  text-align: right;
+  color: #0d425e;
+  font-weight: bold;
+}
+.type-12-header .writer h3 {
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.type-12-header .writer button {
+  margin-left: 40px;
+  font-size: 16px;
+  padding: 15px 30px;
+  background: #fdd123;
+}
+.type-12-header .writer button:hover {
+  margin-left: 40px;
+  font-size: 16px;
+  padding: 15px 30px;
+  background: #bb9a17;
+}
+.type-12-header .navbar-brand .logo {
+  max-width: 100px;
+}
+.type-12-header .mui-ten-huong-len {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  background: #ffff66;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1;
+}
+.type-12-header .owl-carousel .owl-item img {
+  z-index: 1;
+}
+.type-12-header .mui-ten-huong-len a {
+  color: #fff;
+  text-decoration: none;
+}
+.type-12-header .mui-ten-huong-len:hover {
+  background: #fdd123;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.type-12-header .content h3 {
+  line-height: 1;
+  color: #fff;
+}
+@keyframes move_right {
+  0% {
+    left: 0px;
+  }
+  100% {
+    bottom: 200px;
+  }
+}

@@ -1,0 +1,124 @@
+@import "../../var/var.less";
+.type-1-header {
+  background: #0d425e;
+
+  ul {
+    display: flex;
+  }
+  ul li {
+    list-style: none;
+  }
+  ul li a {
+    display: block;
+    padding: 0 25px;
+    line-height: 50px;
+    color: #f1f2f3;
+    text-decoration: none;
+  }
+  ul li ul li:first-child {
+    border-left: none;
+    border-top: 5px solid red;
+    margin-top: 25px;
+  }
+  ul li:first-child a {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  ul li:hover > a {
+    opacity: 0.7;
+    color: yellow;
+  }
+
+  ul li ul li:hover > a {
+    opacity: 0.7;
+    color: #2394fd;
+  }
+
+  li ul {
+    display: none;
+    min-width: 200px;
+    position: absolute;
+  }
+  li > ul li {
+    width: 100%;
+    border: none;
+    background: #999;
+    text-align: left;
+  }
+  li > ul li:first-child a {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    color: #2394fd;
+  }
+
+  li > ul li:last-child a {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  /*khi hover thì hiện menu con*/
+  li:hover > ul {
+    display: block;
+  }
+  /*Hiển thị menu con cấp 2,3,4 bên cạnh phải*/
+  ul li > ul li > ul {
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  .logo img {
+    width: 80px;
+    height: auto;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .home {
+    color: #fdd123;
+  }
+  .nav > li > a:hover {
+    color: #fdd123;
+  }
+  .gold {
+    color: #fdd123;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+  }
+
+  .right {
+    text-align: right;
+    color: #fff;
+  }
+  .navbar-brand {
+    margin: 0;
+    padding: 0;
+  }
+  .image-carousel {
+    padding: 5px;
+  }
+
+  /*----------REPONSIVE-------------*/
+  @media (min-width: @md-992) {
+    .sidebar {
+      padding: 0;
+    }
+  }
+  @media (min-width: @sm-768) {
+    .sidebar {
+      width: 96rem;
+    }
+  }
+  @media (max-width: @md-992) {
+    .bottom {
+      margin-bottom: 1.5rem;
+    }
+  }
+  @media (max-width: @xs-480) {
+    .sidebar {
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,114 @@
+.type-16 {
+  background: #eef3f5;
+  position: relative;
+  height: 100%;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.type-16 .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.type-16 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.type-16 .content_16 {
+  text-align: center;
+}
+.type-16 .aboutus_16::before {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  height: 1px;
+  background-color: #0d425e;
+  transform: translateY(-0.3em);
+  margin-right: 20px;
+}
+.type-16 .aboutus_16::after {
+  box-sizing: border-box;
+}
+.type-16 .border-left-custom_16 {
+  border-left: 2px solid #fdd123;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.type-16 .left_16 {
+  padding: 25px;
+}
+.type-16 .img_16 {
+  width: 50%;
+  border-radius: 50%;
+  padding-top: 45px;
+}
+.type-16 .swiper-slide {
+  display: inline-block;
+  cursor: grab;
+}
+.type-16 .fs_16 {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  background: #fdd123;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.type-16 .fs_16:hover {
+  background: #3f729b;
+  color: #fff;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.type-16 .fs_16_yt {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  background: #fdd123;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.type-16 .fs_16_yt:hover {
+  background: red;
+  color: #fff;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.type-16 .name_16 {
+  color: #0d425e;
+}
+.type-16 .name_16:hover {
+  color: #2394fd;
+  text-decoration: none;
+}
+.type-16 .content_16_p {
+  font-size: 16px;
+  text-indent: unset;
+  text-align: center;
+  color: #9a9fa0;
+}
+.type-16 .img_16_quote {
+  width: 45px;
+  height: 35px;
+  left: 50%;
+  margin-top: 40px;
+}

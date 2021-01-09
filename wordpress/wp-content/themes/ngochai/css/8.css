@@ -1,0 +1,49 @@
+.bacgrought-module-8 {
+  background: #f0f0f0;
+}
+.module-8 {
+  color: #0d425e;
+  padding: 100px 0;
+}
+.module-8 .title-left {
+  font-size: 50px;
+}
+.module-8 .btn-viewall {
+  padding: 20px 15px;
+  background: #fdd123;
+  border: 2px solid #fdd123;
+  min-width: 170px;
+  color: #0d425e;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.module-8 .item-right .item {
+  text-align: center;
+}
+.module-8 .item-right .item .img {
+  position: relative;
+}
+.module-8 .item-right .item .img a {
+  position: absolute;
+  padding: 10px 20px;
+  border: 2px solid #fdd123;
+  background: #fff;
+  color: #0d425e;
+  transition: all 200ms;
+  opacity: 0;
+  pointer-events: none;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.module-8 .item-right .item .img:hover a {
+  opacity: 1;
+  pointer-events: all;
+}
+.module-8 .item-right .item .title {
+  font-size: 21px;
+}
+.module-8 .item-right .item .title a {
+  color: #0d425e;
+  text-decoration: none;
+}

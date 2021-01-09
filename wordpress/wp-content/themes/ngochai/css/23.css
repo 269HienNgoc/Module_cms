@@ -1,0 +1,96 @@
+.module-23{
+  margin-top: 100px;
+  color: #0d425e;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 50px;
+}
+h4 {
+  font-size: 40px;
+}
+h5 {
+  font-size: 30px;
+}
+h6 {
+  font-size: 20px;
+}
+.float-left {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+.float-right {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+.module-23 .items-top {
+  margin-bottom: 60px;
+}
+.module-23 .heading {
+  font-weight: bold;
+  color: #0d425e;
+}
+.module-23 p {
+  color: #0d425e;
+}
+.module-23 blockquote {
+  border-left: 2px solid #fdd123;
+  padding: 20px 0 5px 35px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.module-23 blockquote >p {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+  text-indent: 50px;
+  position: relative;
+}
+.module-23 blockquote >p::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  left: 0;
+  top: -20px;
+  background-image: url(images/module_23_quote.png);
+  background-color: #fdd123;
+}
+.module-23 blockquote footer span + span {
+  margin-left: 20px;
+}
+.module-23 blockquote footer span + span:before {
+  content: '|';
+  margin-right: 25px;
+}
+.module-23 ul.list-styled {
+  list-style: none;
+}
+.module-23 ul.list-styled li:before {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+  font-size: 14px;
+  color: #0d425e;
+  position: relative;
+  padding-right: 15px;
+}
+.module-23 ol.list-num {
+  list-style: none;
+}
+.module-23 ol.list-num li::before {
+  padding-right: 10px;
+  content: ".0" counter(li);
+  counter-increment: li;
+  left: 2px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #0d425e;
+}

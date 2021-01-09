@@ -1,0 +1,81 @@
+@import "../../var/var.less";
+.type-31-content {
+  position: relative;
+  overflow: hidden;
+}
+.type-31-content .kites {
+  background-image: url(../images/anhbia.jpg);
+  width: 848px;
+  height: 400px;
+  margin-top: 30px;
+  position: relative;
+}
+.type-31-content .kites button {
+  border: 1px solid #ffc107;
+  background: #ffc107;
+  color: #598aa4;
+  padding: 3px 20px;
+}
+.type-31-content .windsurf {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+}
+.type-31-content .kites button:hover {
+  border: 1px solid #007bff;
+  background: #007bff;
+  color: #fff;
+}
+.type-31-content .introduce {
+  background: #f8f9fa;
+  padding: 50px 40px;
+  color: #598aa4;
+  font-size: 16px;
+}
+.type-31-content .icon {
+  margin: 30px 0;
+}
+.type-31-content .icon i {
+  padding-right: 10px;
+  color: #ffc107;
+  font-size: 2em;
+}
+.type-31-content .icon i:hover {
+  padding-right: 10px;
+  color: #fd4123;
+  font-size: 2em;
+}
+.type-31-content .ngaythang {
+  margin-bottom: 20px;
+}
+.type-31-content .ngaythang span {
+  margin-right: 50px;
+}
+.type-31-content p {
+  margin: 1.2em;
+}
+.type-31-content .boder .col-md-8 {
+  border-left: 3px solid #598aa4;
+  padding-left: 50px;
+  margin-bottom: 1.2em;
+}
+.type-31-content .col-md-11 {
+  border-left: 2px solid #ffc107;
+  font-size: 20px;
+}
+.type-31-content .phanhoi button {
+  border: 1px solid #598aa4;
+  background: #f8f9fa;
+  color: #598aa4;
+  padding: 7px 20px;
+}
+.type-31-content .phanhoi button:hover {
+  background: #ffc107;
+  border: 1px solid #ffc107;
+  color: #fff;
+}
+@media (max-width: 567px) {
+  .type-31-content .introduce {
+    padding: 20px 15px;
+  }
+}
